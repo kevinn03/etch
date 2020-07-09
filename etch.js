@@ -3,6 +3,12 @@ window.onload = function(){
     reset();
 }
 const container = document.querySelector(".container");
+const res = document.querySelector(".btn");
+res.addEventListener("click", reset);
+const def = document.querySelector(".def");
+def.addEventListener("click", toggleOff);
+const ran = document.querySelector(".ran");
+ran.addEventListener("click", toggleOn);
 
 function hover(){
     if(container.getAttribute("class") === "container default"){
@@ -61,12 +67,7 @@ function toggleOff(){
     container.classList.add("default");
 }
 
-let res = document.querySelector(".btn");
-res.addEventListener("click", reset);
-let def = document.querySelector(".def");
-def.addEventListener("click", toggleOff);
-let ran = document.querySelector(".ran");
-ran.addEventListener("click", toggleOn);
+
 /*
 let items = document.querySelector(".box7");
 items.
