@@ -1,6 +1,6 @@
 
 function hover(){
-    this.style.cssText = "background-color: black;";
+    this.style.cssText = "background-color: blue;";
 }
 
 function reset(){
