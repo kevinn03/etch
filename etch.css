@@ -1,3 +1,15 @@
-p {
-    background-color: red;
+.container {
+    
+    display: grid;
+    border: 10px solid gold;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    
+}
+
+.box {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
 }

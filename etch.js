@@ -2,12 +2,14 @@
 
 function grid(){
     let container = document.querySelector(".container");
-    var i = 0;
-    for(i = 0; i < 256; i++){
+    var i;
+    for(i = 1; i < 257; i++){
         
         let grid = document.createElement("div");
+        grid.classList.add("box");
         grid.classList.add(`box${i}`);
-        
+        grid.style.cssText = "background-color: green;";
+        grid.textContent = `${i}`;
         container.appendChild(grid);
     }
 }
