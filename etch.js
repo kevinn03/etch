@@ -1,6 +1,6 @@
 
 function hover(){
-    this.style.cssText = "background-color: blue;";
+    this.style.cssText = "background-color: black;";
 }
 
 function reset(){
@@ -9,7 +9,7 @@ function reset(){
         container.removeChild(container.firstChild);
     }
 
-    let size = prompt("Enter size of grid").trim();
+    let size = prompt("Enter size of grid", 16).trim();
     grid(size);
 }
 

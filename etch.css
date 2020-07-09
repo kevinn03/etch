@@ -2,7 +2,7 @@
     width: 960px;
     height: 960px;
     display: grid;
-    border: 10px solid gold;
+    border: 10px solid rgb(255, 217, 0);
     
     
 }
@@ -17,6 +17,7 @@
     background-color: green;
 }
 
-.btn {
+button {
     font-size: 25px;
+    margin: 10px;
 }
