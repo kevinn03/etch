@@ -24,7 +24,7 @@ function grid(size){
         grid.classList.add("box");
         grid.classList.add(`box${i}`);
        
-        grid.textContent = `${i}`;
+        
         
         
         grid.addEventListener("mouseover", hover)
