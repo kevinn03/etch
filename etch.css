@@ -2,14 +2,19 @@
     width: 960px;
     height: 960px;
     display: grid;
-    border: 10px solid rgb(255, 187, 0);
+    border: 5px solid rgba(0, 0, 0, 1);
     position: relative;
     left: 30%;
     
     
 }
+h1  {
+    position: relative;
+    left: 38%;
+    font-size: 100px;
+}
 body    {
-    background-color: rgb(88, 87, 87);
+    background-color: white;
 }
 .box {
     color: white;
